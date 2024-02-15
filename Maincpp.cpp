@@ -21,7 +21,7 @@ int main() {
     cout << "Introduce los elementos de la matriz 3x3:" << endl;
     for (int i = 0; i < 3; i++) {
         for (int j = 0; j < 3; j++) {
-            cout << "Introduce el elemento [" << i << "][" << j << "]: ";
+            cout << "Introduce el numero [" << i << "][" << j << "]: ";
             cin >> matriz[i][j];
         }
     }
